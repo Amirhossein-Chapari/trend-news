@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <React.Fragment>
       {/* Desktop Navbar */}
-      <nav className="container py-11 md:flex hidden">
+      <nav className="w-[100%] py-11 md:flex hidden">
         <div className="lg:w-[80%] md:w-[90%] md:flex hidden justify-between items-center  mx-auto">
           {/* LeftSide */}
           <div className="flex items-center  lg:gap-[60px] gap-[20px]">
