@@ -1,9 +1,9 @@
-import { HiChevronDown } from "react-icons/hi";
+import { HiChevronDown, HiChevronRight } from "react-icons/hi";
 
 //   navLinks
 export const navItems = [
-  { name: "Categories", link: "#categories",icon:<HiChevronDown /> },
-  { name: "Pages", link: "#pages",icon:<HiChevronDown/> },
+  { name: "Categories", link: "#categories",icon:<HiChevronDown />,iconMobile:<HiChevronRight /> },
+  { name: "Pages", link: "#pages",icon:<HiChevronDown/>,iconMobile:<HiChevronRight />},
   { name: "Contact Us", link: "/contact_us" },
   { name: "About Us", link: "/about_us" },
 ];
