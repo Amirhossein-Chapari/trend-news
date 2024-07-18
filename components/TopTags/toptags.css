@@ -1,0 +1,48 @@
+.food, .animal, .car, .sport, .music, .technology, .abstract, .nature {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.food {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Food.png');
+}
+
+.car {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Car.png');
+
+}
+
+.animal {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Animal.png');
+
+}
+
+.sport {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Sport.png');
+
+}
+
+.music {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Music.png');
+
+}
+
+.technology {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Technology.png');
+
+}
+
+.abstract {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Abstract.png');
+
+}
+
+.nature {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/assets/Nature.png');
+
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
