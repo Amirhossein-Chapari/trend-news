@@ -121,35 +121,6 @@ const TopTags = () => {
                     </li>
                 ))}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                {/* <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Coding</li>
-                <li className="tab active cursor-pointer text-lg whitespace-nowrap bg-[#5372F0] text-white py-3 px-5 rounded-3xl border-transparent">JavaScript</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Podcasts</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Databases</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Web Development</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Unboxing</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">History</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Programming</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Gadgets</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Algorithms</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Comedy</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Gaming</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Share Market</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Smartphones</li>
-                <li className="tab cursor-pointer text-lg whitespace-nowrap bg-[#f5f4fd] py-3 px-5 rounded-3xl border border-[#d8d5f2]">Data Structure</li> */}
             </ul>
             <div className="icon absolute top-0 right-0 h-full w-30 flex justify-end bg-gradient-to-l from-white to-transparent">
                 <i ref={rightArrowRef} id="right" className="fa-solid fa-angle-right flex justify-end items-center w-24 h-full cursor-pointer text-lg text-center text-black-100 bg-gradient-to-l from-gray-100 via-gray-100 to-white/0">
