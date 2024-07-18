@@ -7,7 +7,8 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <React.Fragment>
-      <nav className="w-[100%] py-11">
+      {/* Desktop Navbar */}
+      <nav className="w-[100%] py-11 md:flex hidden">
         <div className="lg:w-[80%] md:w-[90%] md:flex hidden justify-between items-center  mx-auto">
           {/* LeftSide */}
           <div className="flex items-center  lg:gap-[60px] gap-[20px]">
@@ -42,12 +43,17 @@ const Nav = () => {
             {/* SearchBar & ProfileSection */}
             <div className="flex items-center gap-4">
               <div className="hidden xl:flex">
-                <input type="search" placeholder="search" className="bg-gray-100 border-none rounded-xl w-[250px]" style={{ padding: "14px 16px 14px 16px" }}/>
+                <input
+                  type="search"
+                  placeholder="search"
+                  className="bg-gray-100 border-none rounded-xl w-[250px]"
+                  style={{ padding: "14px 16px 14px 16px" }}
+                />
               </div>
               <div>
                 {profile.map(({ index, name, src, icon }) => (
                   <div key={index} className="flex items-center gap-1">
-                    <Image src={src} className="w-12 h-12 rounded-xl"/>
+                    <Image src={src} className="w-12 h-12 rounded-xl" />
                     <p>{name}</p>
                     <p className="w-4 h-4">{icon}</p>
                   </div>
@@ -59,6 +65,29 @@ const Nav = () => {
               <HiOutlineBookmark />
             </div>
           </div>
+        </div>
+      </nav>
+
+      {/* Tablet Navbar */}
+      <nav className="w-[100%] py-4 md:hidden mobile:flex hidden shadow-md">
+        <div className="flex flex-col w-[80%] mx-auto ">
+          <div className="flex justify-between">
+            {/* SideNav */}
+            {/* Logo */}
+            <div>
+              <div></div>
+              <div>
+                <p className="text-[22px] text-secondary-100 font-Robot font-bold leading-[22px]">
+                  MEGA.news
+                </p>
+              </div>
+            </div>
+            {/* Profile */}
+            {/* BookMark */}
+            <div></div>
+          </div>
+          {/* SearchBar */}
+          <div></div>
         </div>
       </nav>
     </React.Fragment>
