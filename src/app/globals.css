@@ -2,4 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
 
+@layer base{
+  @font-face {
+    font-family: "Robot";
+    src: url("../../Fonts/Roboto-Regular.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 700;
+  }
+}

@@ -1,11 +1,18 @@
+import { HiChevronDown } from "react-icons/hi";
+
 //   navLinks
 export const navItems = [
-  { name: "Categories", link: "#categories" },
-  { name: "Pages", link: "#pages" },
-  { name: "Contact Us", link: "#contact" },
-  { name: "About Us", link: "#about" },
+  { name: "Categories", link: "#categories",icon:<HiChevronDown /> },
+  { name: "Pages", link: "#pages",icon:<HiChevronDown/> },
+  { name: "Contact Us", link: "/contact_us" },
+  { name: "About Us", link: "/about_us" },
 ];
 
+import profileImg from "../public/assets/profile.jpg"
+export const profile = [
+  { name: "behzad", src:profileImg,icon:<HiChevronDown/>},
+
+];
 
 //   topTags Maybe It's gonna be slider
 export const topTags = [

@@ -30,6 +30,14 @@ module.exports = {
           100: "#000000",
         },
       },
+      container: {
+        
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "3rem",
+        },
+      },
       boxShadow: {
         normal: "0px 0px 32px rgba(0, 0, 0, 0.07)",
       },
@@ -39,6 +47,10 @@ module.exports = {
         md: "768px",
         lg: "1024px",
         xl: "1280px",
+      },
+      fontFamily: {
+        "Robot": "Robot",
+    
       },
     },
   },
