@@ -99,7 +99,7 @@ const TopTags = () => {
 
     return (
         ////////////////// mx-40 will be remove after set container
-        <div className="wrapper relative mx-40 p-2 bg-gray-100 rounded-xl overflow-hidden">
+        <div className="wrapper hidden lg:block relative mx-40 p-2 bg-gray-100 rounded-xl overflow-hidden">
             <div className="icon absolute top-0 left-0 h-full w-30 hidden bg-gradient-to-r from-white to-transparent">
                 <i ref={leftArrowRef} id="left" className="fa-solid fa-angle-left flex justify-start items-center w-24 h-full cursor-pointer text-center text-black-100 bg-gradient-to-r from-gray-100 via-gray-100 to-white/0 z-50">
                     <div className='pl-4'>

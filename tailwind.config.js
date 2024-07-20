@@ -34,6 +34,11 @@ module.exports = {
       },
       container: {
         center: true,
+        padding: {
+          DEFAULT: "1rem",
+          lg: "5rem",
+          xl: "10rem",
+        }
       },
       boxShadow: {
         normal: "0px 0px 32px rgba(0, 0, 0, 0.07)",

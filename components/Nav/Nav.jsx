@@ -11,8 +11,8 @@ const Nav = () => {
   return (
     <React.Fragment>
       {/* Desktop Navbar */}
-      <nav className="w-[100%] py-11 md:flex hidden">
-        <div className="lg:w-[80%] md:w-[90%] md:flex hidden justify-between items-center  mx-auto">
+      <nav className="py-11 md:flex hidden">
+        <div className="container md:flex hidden justify-between items-center  mx-auto">
           {/* LeftSide */}
           <div className="flex items-center  lg:gap-[60px] gap-[20px]">
             {/* Logo */}
@@ -96,8 +96,8 @@ const Nav = () => {
       </nav>
 
       {/* Tablet Navbar */}
-      <nav className="w-[100%] py-4 md:hidden mobile:flex hidden shadow-md relative z-40">
-  <div className="flex flex-col w-[80%] mx-auto">
+      <nav className=" py-4 md:hidden mobile:flex hidden shadow-md relative z-40">
+  <div className="container flex flex-col mx-auto">
     <div className="flex justify-between">
       {/* Logo */}
       <div className="flex items-center gap-4">
